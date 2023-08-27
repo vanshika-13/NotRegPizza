@@ -1,0 +1,6 @@
+mvp -> minimal viable pattern -> minimum features but working webapp
+mvc -> model(structure) view() controller(between view and model)
+DOM -> document ibject model
+BOM -> browser object model
+tab -> window -> web page -> DOM    /Screen/history/navigation/local and session storage/location
+                                 <--------------------------------BOM------------------------------->

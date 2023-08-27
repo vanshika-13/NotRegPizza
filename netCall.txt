@@ -1,0 +1,5 @@
+chrome -> v8 engine -> run js code -> event loop reads code->
+source code->queue->event loop reads code from queue->
+sync or async task
+funtion->network call-> when request satisfied at last then tell function(callback)
+

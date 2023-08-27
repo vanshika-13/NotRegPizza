@@ -1,0 +1,15 @@
+problems
+
+network call (async call)
+object->json (serialisation) //using stringify
+
+json->object (deserialisation) //using parse
+data(object) -> html
+DOM
+dynamic html
+
+internet deoendency
+async calls ->non blocking calls
+js architecture
+
+
