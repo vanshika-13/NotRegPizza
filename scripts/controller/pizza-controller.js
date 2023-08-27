@@ -11,9 +11,11 @@ async function printPizzas() {
 printPizzas();
 
 function createCard(pizza) {
-    const cardDiv = document.createElement("div");//gives object
-    cardDiv.className='card';
-    cardDiv.style = {width: '18rem'};
+    const colDiv = document.createElement('div');
+    colDiv.className = 'col-4';
+    const cardDiv = document.createElement("div");
+    cardDiv.className = 'card';
+    cardDiv.style = {width:'18rem'};
     const img = document.createElement('img');
     img.src = pizza.url;
     img.className = 'card-img-top';
@@ -31,9 +33,10 @@ function createCard(pizza) {
     cardBody.appendChild(pTag);
     const button = document.createElement('button');
     button.className = 'btn btn-primary';
-    button.innerText='Add to Cart';
+    button.innerText = 'Add to Cart';
     cardBody.appendChild(button);
-    return cardDiv;
+    colDiv.appendChild(cardDiv);
+    return colDiv;
     /*
     <div class="card" style="width: 18rem;">
    <img class="card-img-top" src="..." alt="Card image cap">
